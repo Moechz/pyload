@@ -1,0 +1,195 @@
+# ===========================================================================
+# Multilingual file for the TOS 7 Docker application "pyloaddocker".
+# File name MUST be: <appid>.lang.  23-language superset (14 required by TOS).
+# The App Center picks the text matching the user's device language;
+# untranslated nodes fall back to English, which the official guide allows.
+# Fields: name (app title), auth (upstream author), descript (up to 512
+# chars), release_note, important (up to 512 chars).
+# Translations come from tosapp.json "translations"; run
+#   tosdocker lang <app>          to re-render this file
+#   tosdocker translate <app>     to see what still needs translating
+# ===========================================================================
+[en-us]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[zh-cn]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "习惯打卡与连续天数统计，界面简洁。"
+release_note = "1. First release."
+important    = "首次使用请打开网页完成初始化。数据保存在 DockerAppData/beaverhabitsdocker，重启和升级不会丢失。容器以 uid 1000 运行，挂载目录需对该用户可读。需要 DockerEngine；Docker Hub 不可达时先配置镜像加速。卸载并删除数据前请备份。局域网内为 HTTP。"
+
+[zh-hk]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "习惯打卡与连续天数统计，界面简洁。"
+release_note = "1. First release."
+important    = "首次使用請開啟網頁完成初始化。資料保存在 DockerAppData/beaverhabitsdocker，重新啟動和升級不會遺失。容器以 uid 1000 運行，掛載目錄需對該使用者可讀。需要 DockerEngine；Docker Hub 不可達時先設定鏡像加速。解除安裝並刪除資料前請備份。區域網路內為 HTTP。"
+
+[fr-fr]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[de-de]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[it-it]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[es-es]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[hu-hu]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[ja-jp]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[ko-kr]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[pl-pl]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[ru-ru]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[tr-tr]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[pt-pt]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[ar-sa]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[cs-cz]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[he-il]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[id-id]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[nb-no]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[nl-nl]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[sv-se]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[th-th]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
+[vi-vn]
+name         = "pyLoad"
+auth         = "pyLoad"
+version      = "@@VERSION@@"
+descript     = "pyLoad is a download manager for one-click hosters, direct links and containers: it queues downloads, extracts archives and can run plugins for many services. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts pyLoad directly."
+release_note = "1. First release."
+important    = "Open the web UI on port 8101; the default login is pyload/pyload, change it in the settings. Downloads go to /Volume1/DockerAppData/pyloaddocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN."
+
